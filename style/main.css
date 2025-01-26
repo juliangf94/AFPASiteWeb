@@ -1,0 +1,259 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/*GESTION BACKGROUND & CSS GENERAL*/
+
+body {
+    background: url("../Images/A3-1920.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.h1 {
+    background-color: #44A33D;
+    border-radius: 50px;
+    margin: 20px;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+/*NAVBAR*/
+
+.manav {
+    background-color: #44A33D;
+    padding: 0;
+}
+
+.logo {
+    border: solid 4px white;
+    border-radius: 10px;
+    width: 75%;
+    height: auto;
+}
+
+.navbar-expand-lg {
+    height: fit-content;
+}
+
+.nav-link {
+    color: white;
+    background-color: #87BB34;
+
+}
+
+.nav-link:hover {
+    color: #44A33D;
+    box-shadow: 3px 3px 3px purple;
+}
+
+
+/*CORPS PAGE INDEX*/
+
+.divindex {
+    background-color: gray;
+    opacity: 0.95;
+    border-radius: 20px;
+    margin-top: 90px;
+    width: fit-content;
+    text-align: center;
+    width: 100vh;
+}
+
+.t1 {
+    display: inline-block;
+    background-color: #44A33D;
+    border-radius: 50px;
+    text-transform: uppercase;
+    margin: 20px;
+    color: white;
+
+}
+
+.t2 {
+    display: inline-block;
+    background-color: #44A33D;
+    border-radius: 10px;
+    margin: 20px;
+    color: white;
+}
+
+.formbtn {
+    background-color: purple;
+    color: white;
+    padding-left: 50px;
+    padding-right: 50px;
+
+}
+
+/*CORPS PAGE Formation*/
+
+.colFormation {
+    background-color: gray;
+    opacity: 0.95;
+    border-radius: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+
+}
+
+.rubriqueFormation-Titre {
+    background-color: #44A33D;
+    border-radius: 50px;
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+    margin-right: 180px;
+    margin-left: 180px;
+}
+
+.rubriqueFormation {
+    border: solid 2px rgb(168, 82, 168);
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.rubriqueFormation-Description>p {
+    color: white;
+    margin: 10px;
+}
+
+/*PAGE TEMOIGNAGES ALTERNATIVE*/
+
+.carte2 {
+    width: 100vh;
+    height: auto;
+    align-items: center;
+    background-color: gray;
+    opacity: 0.95;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+.carousel-control-prev {
+    justify-content: right;
+}
+
+.carousel-control-next {
+    justify-content: left;
+}
+
+.carousel-inner {
+    margin-top: 60px;
+}
+
+/*PAGE TEMOIGNAGES*/
+
+.carte {
+    width: 350px;
+    height: 700px;
+    align-items: center;
+    background-color: gray;
+    opacity: 0.95;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+.img-thumbnail {
+    border: solid 2px purple;
+    width: 200px;
+    margin-top: 10px;
+}
+
+.carte-temoignage-nom {
+    background-color: #44A33D;
+    border-radius: 50px;
+    color: white;
+    display: block;
+    text-align: center;
+}
+
+.carte-temoignage-fonction {
+    color: purple;
+    display: block;
+    text-align: center;
+    font-weight: bold;
+    margin: 5px
+}
+
+.carte-temoignage-entreprise {
+    color: purple;
+    display: block;
+    text-align: center;
+    font-weight: bold;
+    margin: 5px
+}
+
+.card-text {
+    font-size: 0.8em;
+    color: white;
+    text-align: justify;
+}
+
+/*PAGE REFERENCES*/
+
+.gallery {
+    background-color: #87BB34;
+    border-radius: 10px;
+    opacity: 0.95;
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+
+.gallery img {
+    flex-shrink: 1;
+    flex-grow: 1;
+    max-width: 150px;
+    max-height: 150px;
+    margin: 20px;
+}
+
+/*PAGE CONTACT*/
+
+.form {
+    background-color: gray;
+    opacity: 0.95;
+    border-radius: 20px;
+    margin-top: 10px;
+    width: 80vh;
+    padding: 20px;
+    line-height: 1.5em;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.btnformulaire {
+    background-color: #44A33D;
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.form-radio {
+    display: inline-block;
+    padding: 5px;
+    margin: 0 10px;
+}
+
+input:hover:not([type="radio"], [type="submit"]) {
+    box-shadow: 5px 5px 5px purple;
+}
+
+textarea:hover {
+    box-shadow: 5px 5px 5px purple;
+}
